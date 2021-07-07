@@ -1,0 +1,65 @@
+{
+  "kernel_sizes": [
+    6,
+    4,
+    3,
+    3
+  ],
+  "output_padding_lst": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "strides": [
+    2,
+    1,
+    1,
+    1
+  ],
+  "paddings": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hidden_dims": [
+    32,
+    32,
+    64,
+    64
+  ],
+  "latent_dim": 100,
+  "enc_bn": false,
+  "dec_bn": false,
+  "dec_out_nonlin": "none",
+  "vae_reduction": "norm_batch",
+  "prior": "gauss",
+  "soft_clip": false,
+  "loss_type": "beta",
+  "vae_gamma": 10.0,
+  "vae_c_max": 0.005,
+  "vae_beta": 2.5,
+  "vae_geco_goal": 0.5,
+  "init": "kaiming",
+  "lr": 0.0005,
+  "weight_decay": 0,
+  "schedule_type": "none",
+  "scheduler_gamma": 0.5,
+  "milestones": [
+    50,
+    75
+  ],
+  "img_size": 48,
+  "crop_size": 64,
+  "num_epochs": 100,
+  "batch_size": 128,
+  "ds_name": "carla45fully48px",
+  "n_workers": 8,
+  "model_name": "BasicBetaVAE",
+  "nonlin": "lrelu",
+  "aug": [
+    ""
+  ],
+  "save_dir": "/share/rk8/shared/carla/carla_models/vae/"
+}

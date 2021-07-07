@@ -1,0 +1,5 @@
+goal: {reward: 1., discounting: 0., reset: True, not_reached: 0}
+wall: {reward: -0.01, reset: False}
+goodie: {reward: 1., reset: False}
+obstacle: {reward: -1, reset: False}
+stepwise: {reward: -0.01}

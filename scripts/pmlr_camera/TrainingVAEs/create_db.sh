@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+python -m carla.collect_image_data --context_config pmlr_all.yaml --tile_size 8 --grid_size 6 --root_path data/carla45fully48pxdb --n_samples 50000 --fully_obs --random_start --reward pmlr.yaml

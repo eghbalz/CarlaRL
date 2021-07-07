@@ -1,0 +1,29 @@
+name: carla
+
+channels:
+  - pytorch
+  - anaconda
+  - defaults
+
+dependencies:
+  - python=3.7
+  - Cython
+  - matplotlib
+  - numpy
+  - pytorch
+  - scipy
+  - torchvision
+  - tqdm
+
+  - pip:
+    - opencv_python
+    - scikit-learn
+    - tensorboard
+    - gym
+    - gym-minigrid
+    - psutil
+    - pandas
+    - seaborn==0.8.1
+    - pyyaml
+    - git+https://github.com/eghbalz/contextual-gridworld
+

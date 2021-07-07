@@ -1,0 +1,138 @@
+subdivs: 3  # for visualization purposes
+contexts: [
+  {'goal': 'lime', 'obstacle': 'saddlebrown', 'goodie': 'forestgreen', 'agent': 'forestgreen'} ,
+  {'goal': 'lime', 'obstacle': 'forestgreen', 'goodie': 'saddlebrown', 'agent': 'saddlebrown'} ,
+
+  {'goal': 'lime', 'obstacle': 'fuchsia', 'goodie': 'hotpink', 'agent': 'hotpink'} ,
+  {'goal': 'lime', 'obstacle': 'hotpink', 'goodie': 'fuchsia', 'agent': 'fuchsia'} ,
+
+  {'goal': 'lime', 'obstacle': 'gold', 'goodie': 'hotpink', 'agent': 'hotpink'} ,
+  {'goal': 'lime', 'obstacle': 'hotpink', 'goodie': 'gold', 'agent': 'gold'} ,
+
+  {'goal': 'lime', 'obstacle': 'red', 'goodie': 'gold', 'agent': 'gold'} ,
+  {'goal': 'lime', 'obstacle': 'gold', 'goodie': 'red', 'agent': 'red'} ,
+
+  {'goal': 'lime', 'obstacle': 'saddlebrown', 'goodie': 'gold', 'agent': 'gold'} ,
+  {'goal': 'lime', 'obstacle': 'gold', 'goodie': 'saddlebrown', 'agent': 'saddlebrown'} ,
+
+  {'goal': 'lime', 'obstacle': 'gold', 'goodie': 'fuchsia', 'agent': 'fuchsia'} ,
+  {'goal': 'lime', 'obstacle': 'fuchsia', 'goodie': 'gold', 'agent': 'gold'} ,
+
+  {'goal': 'lime', 'obstacle': 'saddlebrown', 'goodie': 'fuchsia', 'agent': 'fuchsia'} ,
+  {'goal': 'lime', 'obstacle': 'fuchsia', 'goodie': 'saddlebrown', 'agent': 'saddlebrown'} ,
+
+  {'goal': 'lime', 'obstacle': 'steelblue', 'goodie': 'aqua', 'agent': 'aqua'} ,
+  {'goal': 'lime', 'obstacle': 'aqua', 'goodie': 'steelblue', 'agent': 'steelblue'} ,
+
+  {'goal': 'lime', 'obstacle': 'red', 'goodie': 'fuchsia', 'agent': 'fuchsia'} ,
+  {'goal': 'lime', 'obstacle': 'fuchsia', 'goodie': 'red', 'agent': 'red'} ,
+
+  {'goal': 'lime', 'obstacle': 'saddlebrown', 'goodie': 'moccasin', 'agent': 'moccasin'} ,
+  {'goal': 'lime', 'obstacle': 'moccasin', 'goodie': 'saddlebrown', 'agent': 'saddlebrown'} ,
+
+  {'goal': 'lime', 'obstacle': 'aqua', 'goodie': 'moccasin', 'agent': 'moccasin'} ,
+  {'goal': 'lime', 'obstacle': 'moccasin', 'goodie': 'aqua', 'agent': 'aqua'} ,
+
+  {'goal': 'lime', 'obstacle': 'aqua', 'goodie': 'fuchsia', 'agent': 'fuchsia'} ,
+  {'goal': 'lime', 'obstacle': 'fuchsia', 'goodie': 'aqua', 'agent': 'aqua'} ,
+
+  {'goal': 'lime', 'obstacle': 'darkblue', 'goodie': 'fuchsia', 'agent': 'fuchsia'} ,
+  {'goal': 'lime', 'obstacle': 'fuchsia', 'goodie': 'darkblue', 'agent': 'darkblue'} ,
+
+  {'goal': 'lime', 'obstacle': 'saddlebrown', 'goodie': 'red', 'agent': 'red'} ,
+  {'goal': 'lime', 'obstacle': 'red', 'goodie': 'saddlebrown', 'agent': 'saddlebrown'} ,
+
+  {'goal': 'lime', 'obstacle': 'darkblue', 'goodie': 'moccasin', 'agent': 'moccasin'} ,
+  {'goal': 'lime', 'obstacle': 'moccasin', 'goodie': 'darkblue', 'agent': 'darkblue'} ,
+
+  {'goal': 'lime', 'obstacle': 'forestgreen', 'goodie': 'gold', 'agent': 'gold'} ,
+  {'goal': 'lime', 'obstacle': 'gold', 'goodie': 'forestgreen', 'agent': 'forestgreen'} ,
+
+  {'goal': 'lime', 'obstacle': 'red', 'goodie': 'aqua', 'agent': 'aqua'} ,
+  {'goal': 'lime', 'obstacle': 'aqua', 'goodie': 'red', 'agent': 'red'} ,
+
+  {'goal': 'lime', 'obstacle': 'steelblue', 'goodie': 'gold', 'agent': 'gold'} ,
+  {'goal': 'lime', 'obstacle': 'gold', 'goodie': 'steelblue', 'agent': 'steelblue'} ,
+
+  {'goal': 'lime', 'obstacle': 'gold', 'goodie': 'aqua', 'agent': 'aqua'} ,
+  {'goal': 'lime', 'obstacle': 'aqua', 'goodie': 'gold', 'agent': 'gold'} ,
+
+  {'goal': 'lime', 'obstacle': 'darkblue', 'goodie': 'gold', 'agent': 'gold'} ,
+  {'goal': 'lime', 'obstacle': 'gold', 'goodie': 'darkblue', 'agent': 'darkblue'} ,
+
+  {'goal': 'lime', 'obstacle': 'forestgreen', 'goodie': 'moccasin', 'agent': 'moccasin'} ,
+  {'goal': 'lime', 'obstacle': 'moccasin', 'goodie': 'forestgreen', 'agent': 'forestgreen'} ,
+
+  {'goal': 'lime', 'obstacle': 'forestgreen', 'goodie': 'darkblue', 'agent': 'darkblue'} ,
+  {'goal': 'lime', 'obstacle': 'darkblue', 'goodie': 'forestgreen', 'agent': 'forestgreen'} ,
+
+  {'goal': 'lime', 'obstacle': 'fuchsia', 'goodie': 'moccasin', 'agent': 'moccasin'} ,
+  {'goal': 'lime', 'obstacle': 'moccasin', 'goodie': 'fuchsia', 'agent': 'fuchsia'} ,
+
+  {'goal': 'lime', 'obstacle': 'moccasin', 'goodie': 'hotpink', 'agent': 'hotpink'} ,
+  {'goal': 'lime', 'obstacle': 'hotpink', 'goodie': 'moccasin', 'agent': 'moccasin'} ,
+
+  {'goal': 'lime', 'obstacle': 'forestgreen', 'goodie': 'fuchsia', 'agent': 'fuchsia'} ,
+  {'goal': 'lime', 'obstacle': 'fuchsia', 'goodie': 'forestgreen', 'agent': 'forestgreen'} ,
+
+  {'goal': 'lime', 'obstacle': 'steelblue', 'goodie': 'moccasin', 'agent': 'moccasin'} ,
+  {'goal': 'lime', 'obstacle': 'moccasin', 'goodie': 'steelblue', 'agent': 'steelblue'} ,
+
+  {'goal': 'lime', 'obstacle': 'steelblue', 'goodie': 'red', 'agent': 'red'} ,
+  {'goal': 'lime', 'obstacle': 'red', 'goodie': 'steelblue', 'agent': 'steelblue'} ,
+
+  {'goal': 'lime', 'obstacle': 'steelblue', 'goodie': 'hotpink', 'agent': 'hotpink'} ,
+  {'goal': 'lime', 'obstacle': 'hotpink', 'goodie': 'steelblue', 'agent': 'steelblue'} ,
+
+  {'goal': 'lime', 'obstacle': 'red', 'goodie': 'moccasin', 'agent': 'moccasin'} ,
+  {'goal': 'lime', 'obstacle': 'moccasin', 'goodie': 'red', 'agent': 'red'} ,
+
+  {'goal': 'lime', 'obstacle': 'aqua', 'goodie': 'hotpink', 'agent': 'hotpink'} ,
+  {'goal': 'lime', 'obstacle': 'hotpink', 'goodie': 'aqua', 'agent': 'aqua'} ,
+
+  {'goal': 'lime', 'obstacle': 'saddlebrown', 'goodie': 'steelblue', 'agent': 'steelblue'} ,
+  {'goal': 'lime', 'obstacle': 'steelblue', 'goodie': 'saddlebrown', 'agent': 'saddlebrown'} ,
+
+  {'goal': 'lime', 'obstacle': 'steelblue', 'goodie': 'darkblue', 'agent': 'darkblue'} ,
+  {'goal': 'lime', 'obstacle': 'darkblue', 'goodie': 'steelblue', 'agent': 'steelblue'} ,
+
+  {'goal': 'lime', 'obstacle': 'saddlebrown', 'goodie': 'hotpink', 'agent': 'hotpink'} ,
+  {'goal': 'lime', 'obstacle': 'hotpink', 'goodie': 'saddlebrown', 'agent': 'saddlebrown'} ,
+
+  {'goal': 'lime', 'obstacle': 'saddlebrown', 'goodie': 'aqua', 'agent': 'aqua'} ,
+  {'goal': 'lime', 'obstacle': 'aqua', 'goodie': 'saddlebrown', 'agent': 'saddlebrown'} ,
+
+  {'goal': 'lime', 'obstacle': 'forestgreen', 'goodie': 'aqua', 'agent': 'aqua'} ,
+  {'goal': 'lime', 'obstacle': 'aqua', 'goodie': 'forestgreen', 'agent': 'forestgreen'} ,
+
+  {'goal': 'lime', 'obstacle': 'steelblue', 'goodie': 'fuchsia', 'agent': 'fuchsia'} ,
+  {'goal': 'lime', 'obstacle': 'fuchsia', 'goodie': 'steelblue', 'agent': 'steelblue'} ,
+
+  {'goal': 'lime', 'obstacle': 'forestgreen', 'goodie': 'red', 'agent': 'red'} ,
+  {'goal': 'lime', 'obstacle': 'red', 'goodie': 'forestgreen', 'agent': 'forestgreen'} ,
+
+  {'goal': 'lime', 'obstacle': 'forestgreen', 'goodie': 'hotpink', 'agent': 'hotpink'} ,
+  {'goal': 'lime', 'obstacle': 'hotpink', 'goodie': 'forestgreen', 'agent': 'forestgreen'} ,
+
+  {'goal': 'lime', 'obstacle': 'darkblue', 'goodie': 'hotpink', 'agent': 'hotpink'} ,
+  {'goal': 'lime', 'obstacle': 'hotpink', 'goodie': 'darkblue', 'agent': 'darkblue'} ,
+
+  {'goal': 'lime', 'obstacle': 'darkblue', 'goodie': 'red', 'agent': 'red'} ,
+  {'goal': 'lime', 'obstacle': 'red', 'goodie': 'darkblue', 'agent': 'darkblue'} ,
+
+  {'goal': 'lime', 'obstacle': 'darkblue', 'goodie': 'aqua', 'agent': 'aqua'} ,
+  {'goal': 'lime', 'obstacle': 'aqua', 'goodie': 'darkblue', 'agent': 'darkblue'} ,
+
+  {'goal': 'lime', 'obstacle': 'saddlebrown', 'goodie': 'darkblue', 'agent': 'darkblue'} ,
+  {'goal': 'lime', 'obstacle': 'darkblue', 'goodie': 'saddlebrown', 'agent': 'saddlebrown'} ,
+
+  {'goal': 'lime', 'obstacle': 'forestgreen', 'goodie': 'steelblue', 'agent': 'steelblue'} ,
+  {'goal': 'lime', 'obstacle': 'steelblue', 'goodie': 'forestgreen', 'agent': 'forestgreen'} ,
+
+  {'goal': 'lime', 'obstacle': 'red', 'goodie': 'hotpink', 'agent': 'hotpink'} ,
+  {'goal': 'lime', 'obstacle': 'hotpink', 'goodie': 'red', 'agent': 'red'} ,
+
+  {'goal': 'lime', 'obstacle': 'gold', 'goodie': 'moccasin', 'agent': 'moccasin'} ,
+  {'goal': 'lime', 'obstacle': 'moccasin', 'goodie': 'gold', 'agent': 'gold'}
+
+]
